@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler
 import server
 
 # Paste Token Here if you don't wanna put it in an env. variable for some reason
-TOKEN_INSECURE = "<PASTE YOUR TELEGRAM BOT TOKEN  HERE>"
+TOKEN_INSECURE = "6966617240:AAG8abpQ6-pTZ9H7T-lI25ZySvE43C10bpQ"
 
 if os.name == 'posix':
     TOKEN = subprocess.run(["printenv", "HAMSTER_BOT_TOKEN"], text=True, capture_output=True).stdout.strip()
